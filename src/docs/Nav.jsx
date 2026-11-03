@@ -104,9 +104,9 @@ const Nav = () => {
               fill-rule="evenodd"
             />
           </svg>
-          <Link className="df" to='/'>
+          <span className="df" to='/'>
               DEOL <br /> <span className="fit">FITNESS</span> 
-          </Link>
+          </span>
         </div>
         <div className="aboutus">
           <Link to="/" className="home">
@@ -116,12 +116,13 @@ const Nav = () => {
           
             SHOP
           </Link>
-          <a href="#" className="bundle">
+          <Link to='/bundles'
+            className="bundle">
             BUNDLE
-          </a>
-          <a href="#" className="coaching">
+          </Link>
+          <Link to='/coaching' className="coaching">
             COACHING
-          </a>
+          </Link>
           <a href="#" className="about">
             ABOUT
           </a>

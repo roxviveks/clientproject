@@ -1,0 +1,186 @@
+.bundalmain{
+    padding-top: 110px;
+    padding-bottom: 150px;
+    padding-left: 60px;
+    padding-right: 40px;
+}
+.bundaltext{
+    color: rgb(0, 217, 255);
+    font-size: 19px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+.bundalheading{
+    font-size: 55px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 217, 255);
+}
+.bndlp{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+.bitem1{
+    display: flex;
+    gap: 50px;
+}
+.bpic{
+    border-radius: 5px;
+    width: 600px;
+}
+.topofinfo{
+    color: rgb(0, 217, 255);
+}
+.headinfo{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.infoline{
+    color: rgb(215, 220, 220);
+    font-size: 17px;
+    padding-top: 20px;
+
+}
+.reviewinfo{
+    color: rgb(0, 217, 255);
+    padding-top: 15px;
+}
+.bprice{
+    
+    display: flex;
+    gap: 30px;
+}
+.price1{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aqua;
+}
+.price2{
+    color: white;
+    font-size: 25px;
+    margin-top: 15px;
+    text-decoration: line-through;
+}
+.pricedep{
+    padding-top: 5px;
+    font-size: 12px;
+    margin-left: 5px;
+    padding-bottom: 20px;
+    color: rgb(215, 220, 220);
+}
+.addcart{ 
+    font-weight: bolder;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: aqua;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    height: 50px;
+    
+}
+.more{
+    font-weight: bolder;
+    color: aqua;
+    font-size: 20px;
+    border-radius: 10px;
+    height: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.combo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aqua;
+    padding-top: 80px;
+    font-size: 50px;
+}
+.combobtn{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ }
+ .combobtn button{ width: 200px;
+    font-weight: bolder;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: aqua;
+    transition: 0.5s ease-in-out;
+ }
+ .cbtn:hover{
+    font-size: 19px;
+    background-color: aqua;
+    color: black;
+ }
+
+ .bdumb,.item1sp{
+    background-color: rgb(19, 33, 56);
+}
+.bndlflex{
+    display: flex;
+
+ }
+ .bndl2{
+    margin-left:-8px ;
+    width: 400px;
+ }
+ .bdprice{
+    background-color: rgb(19, 33, 56);
+    display: flex;
+    gap: 30px;
+}
+.prices1{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aqua;
+}
+.prices2{
+    color: white;
+    font-size: 25px;
+    margin-top: 15px;
+    text-decoration: line-through;
+}
+.infolines{
+    background-color: rgb(19, 33, 56);
+    color: rgb(215, 220, 220);
+    font-size: 17px;
+    padding-top: 20px;
+
+}
+.itemhead{
+    background-color: rgb(19, 33, 56);
+    color: aqua;
+}
+.review{
+    background-color: rgb(19, 33, 56);
+    color: magenta;
+}
+.addtcart{ 
+    font-weight: bolder;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: aqua;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    height: 50px;
+    
+}
+.buynow{
+    margin-left: 30px;
+    background-color: magenta;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border-radius: 10px;
+    height: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
