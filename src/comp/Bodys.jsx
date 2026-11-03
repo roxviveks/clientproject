@@ -1,4 +1,5 @@
 import React from "react";
+import rods from "../pics/rods.jpg"
 const Bodys = () => {
   return (
     <div className="bgrid">
@@ -21,8 +22,10 @@ const Bodys = () => {
       
       <div className="imge1">
       </div>
-          <div className="rods">
-            <h3 className="rodh">Rods and barbell</h3>
+
+          <div className="rod">
+            <img className="rods" src={rods} />
+            <h3 className="rods">Rods and barbell</h3>
             </div>
           <div className="plate">
            

@@ -109,10 +109,12 @@ const Nav = () => {
           </Link>
         </div>
         <div className="aboutus">
-          <Link to="/shop">
-          <span className="shop">
+          <Link to="/" className="home">
+              <span className="home">HOME</span>
+          </Link>
+          <Link className="shop" to="/shop">
+          
             SHOP
-          </span>
           </Link>
           <a href="#" className="bundle">
             BUNDLE
