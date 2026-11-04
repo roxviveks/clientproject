@@ -2,6 +2,7 @@ import React from 'react'
 import "./bundle.css"
 import './coaching.css'
 import "./about.css"
+import './shop.css'
 import Nav from './docs/Nav'
 import Bodys from './comp/Bodys'
 import {  Route, Routes } from 'react-router-dom'
