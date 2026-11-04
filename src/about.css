@@ -1,0 +1,40 @@
+.aboutmain{
+    color: white;
+    padding-top: 200px;
+    padding-top: 150px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.abouthp{
+    color: aqua;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 20px;
+}
+.aboutheadflex{
+    padding-bottom: 50px;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.abheadparent{
+    width: 500px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.abhead{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 500px;
+    font-size: 50px;
+}
+.aboutbaseline{
+    /* text-align: justify; */
+    display: flex;
+}
+.baselinep{
+    color: rgb(205, 205, 205);
+    font-size: 20px;
+    margin-top: 100px;
+}
+

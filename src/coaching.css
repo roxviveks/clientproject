@@ -53,5 +53,58 @@
 }
 .ch1{
     padding-top: 100px;
+    padding-bottom: 100px;
     color: rgb(0, 200, 255);
 }
+.coachbody{
+    display: flex;
+}
+.cdiv1{
+    padding: 30px;
+    border: 2px aqua solid;
+}
+.coachdp{
+    padding-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: rgb(0, 234, 255);
+}
+.citems{
+    padding-bottom: 30px;
+    color: white;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cprice{
+    color: aqua;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cp1{
+    border-bottom: 1px grey solid;
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 40px ;
+}
+.cp2,.cp3{
+    padding-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 30px ;
+}
+.cbook{
+    width: 330px;
+    border: 2px magenta solid;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;    
+    background-color: magenta;
+}
+
+

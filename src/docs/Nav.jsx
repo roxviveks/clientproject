@@ -123,9 +123,9 @@ const Nav = () => {
           <Link to='/coaching' className="coaching">
             COACHING
           </Link>
-          <a href="#" className="about">
+          <Link to="/About" className="about">
             ABOUT
-          </a>
+          </Link>
           <Link to="/terms" className="terms">
             TERMS
           </Link>

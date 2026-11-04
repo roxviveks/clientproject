@@ -26,7 +26,23 @@ const Coach = () => {
       <br />
       <h1 className="ch1">A PLAN THAT MEETS YOU HERE.</h1>
       <div className="coachbody">
-        <div className="cdiv1"></div>
+        <div className="cdiv1">
+          <p className="coachdp">Beginner</p>
+          <br />
+          <h2 className="citems">FOUNDATIONS</h2>
+          <span className="cprice">₹1,999</span>
+          <br />
+          <p className="cp1">One 4-week package · Paid upfront
+            </p>
+            <br />
+            <p className="cp2">
+            2 video sessions · 4-week starter plan
+            </p>
+            <br />
+            <p className="cp3">Workout plan + progress check-ins</p>
+          
+          <div className="cbook">BOOK NOW</div>
+        </div>
         <div className="cdiv2"></div>
         <div className="cdiv3"></div>
         <div className="cdiv4"></div>
