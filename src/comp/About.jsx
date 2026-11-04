@@ -3,16 +3,16 @@ import abpic from "../pics/aboutpics.png";
 const About = () => {
   return (
     <>
-    <div className="aboutmain">
-       <p className="abouthp">WE BELIEVE STRENGTH BELONGS EVERYWHERE.</p>
+      <div className="aboutmain">
+        <p className="abouthp">WE BELIEVE STRENGTH BELONGS EVERYWHERE.</p>
         <div className="aboutheadflex">
-            <span className="abhparent">
+          <span className="abhparent">
             <h1 className="abhead">
               YOUR HOME. <br />
               YOUR STRONGER <br /> SELF.
             </h1>
-            </span>
-           <div className="aboutbaseline">
+          </span>
+          <div className="aboutbaseline">
             <p className="baselinep">
               DEOL FITNESS sells quality fitness equipment and pairs it with
               expert online coaching, so customers can buy the right gear and
@@ -20,8 +20,41 @@ const About = () => {
             </p>
           </div>
         </div>
-         <img className="abthpic1" src={abpic} alt="" />
-    </div>
+        <img className="abthpic1" src={abpic} alt="" />
+        <div className="picline">
+          <p className="pictext1">EQUIPMENT IS JUST THE BEGINNING.</p>
+          <p className="pictext2">
+            A considered setup. A clear plan. Your everyday commitment.
+          </p>
+        </div>
+        <div className="aboutvisionflex">
+          <div className="aboutvision1">
+            <p className="vision">01 / OUR MISSION</p>
+            <h1 className="visionhead">
+              STRENGTH TRAINING. <br />
+              FOR EVERY HOME.
+            </h1>
+            <p className="visionpara">
+              Make safe, affordable and effective strength training available to
+              every home.
+            </p>
+          </div>
+          <div className="aboutvision2">
+            <p className="vision">02 / OUR VISION</p>
+            <h1 className="visionhead">
+              CONNECTED GEAR.
+              <br />
+              CONNECTED PROGRESS.
+            </h1>
+            <p className="visionpara">
+              Become a trusted fitness brand where equipment, guidance and
+              progress tracking work together.
+            </p>
+          </div>
+        </div>
+        <p className="vision">ONE BRAND. THREE CONNECTED PARTS.</p>
+        <h1 className="visionhead">MORE THAN A SET OF WEIGHTS.</h1>
+      </div>
     </>
   );
 };
@@ -87,4 +120,3 @@ export default About;
 //                     saved equipment together.
 //                   </p>
 //                   <div className="iconlink">Your account ↗</div>
-
