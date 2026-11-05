@@ -179,24 +179,41 @@ border-bottom: 1px gray solid ;
 }
 /* The bodys code */
 
-.homebody{
-  padding-top: 150px;
-  padding-right: 70px;
-  padding-left: 70px;
-  padding-bottom: 100px;
-
+.deolf{ 
+  font-weight: bolder;
+  color: magenta;
+  text-shadow: 0 2px 20px black;
 }
-.bgrid{
+.deolf1{ 
+  font-weight: bolder;
+  color: magenta;
+  text-shadow: 0 2px 20px black;
+}
+.gear{
+  color: rgb(3, 180, 251);
+  text-shadow: 0 2px 20px black;
+}
+.homebody{
+  text-shadow: 0 2px 20px black;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  
+}
+.bgrid{   
+  
+  border-radius: 10px;
+  box-shadow: inset 0px -3px 29px 4px black;
   color: aliceblue;
   gap: 20px;
     display: grid;
   grid-template-columns: repeat(13,1fr);
-  padding-bottom: 100px;
+  margin-bottom: 100px;
+  padding: 20px;
 }
 .imge1{
   border-radius: 30px;
   grid-column: 7/14;
-  background-image: url(./pics/dmbl.png);
+  background-image: url(./pics/homemain.jpg);
   background-size: cover;     
   background-position: center;
   background-repeat: no-repeat;
@@ -242,24 +259,33 @@ border-bottom: 1px gray solid ;
   transform: scale(1.1);
   background: linear-gradient(47deg,blue,skyblue);
 }
-.homeitems{
+.homeshop{
+  padding-right: 70px;
+  padding-left: 80px;
+}
+.homeitemp{
+  padding-bottom: 10px;
+  color: aqua;
+}
+.homeitems{background-color: rgb(0, 5, 26);
   justify-content: space-evenly;
   display: flex;
-  border-bottom: 1px #1669aa solid;
   gap: 5px;
   padding-bottom: 100px;
   flex-wrap: wrap;
 }
 .homeitemsheading{
-  padding-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   border-top: 1px #1669aa solid;
   color: aqua;
-  /* border: 1px aqua solid; */
-  margin-left: 30px;
+  border-top: 1px aqua solid;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 50px;
 }
 .homegymitems{
+  border-radius: 10px;
+  padding: 20px;
   margin-top: 80px;
   background-color: rgb(43, 43, 91);
   height: max-content;
@@ -303,14 +329,66 @@ border-bottom: 1px gray solid ;
   
 }
 .homesec{
+  
+  padding-right: 70px;
+  padding-left: 70px;
   padding-top: 100px;
-  justify-content: space-between;
+  gap: 50px;
+  justify-content: center;
   display: flex;
 }
 .picsec{
-  width: 500px;
+  width: 600px;
   height: 500px;
 }
+.picsecinfo p{
+  color: aqua;
+  padding-bottom: 50px;
+}
+.picsechead1{
+  color: rgb(2, 183, 254);
+font-size: 45px;
+padding-bottom: 40px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.homepricespan{
+  display: flex;
+  gap: 20px;
+  padding-bottom: 10px;
+}
+.secp{
+  padding-bottom: 20px;
+  color: white;
+  font-size: 15px;
+}
+.homebookdiv{
+  display: flex;
+}
+.booknowhome{
+  text-align: center;
+  color: rgb(0, 0, 0);
+  padding-top: 5px;
+  font-weight: bolder;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+
+  background-color: magenta;
+}
+.pricehomesec2{
+  font-size: 20px;
+  color: white;
+  text-decoration: line-through;
+  font-weight: bolder;
+  padding-top: 20px;  
+}
+.pricehomesec{
+  font-size: 40px;
+  color: aqua;
+  font-weight: bolder;
+}
+
 /* The shop code */
 
 .smain{

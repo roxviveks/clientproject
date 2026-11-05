@@ -1,17 +1,51 @@
+.shoptophead {
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  gap: 30px;
+}
+.divshop{
+  margin-left: 50px;
+  align-items: center;
+  margin-right: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.logopics{
+  padding: 20px;
+}
 
+.shoptophead h1 {
+  color: #38bdf8;
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.shoptophead p {
+  margin-top: 10px;
+  font-size: 12px;
+}
 
 .shopbody {
   padding-top: 150px;
-  padding-bottom: 150px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-bottom: 50px;
   background-color: #0b0f19;
   color: #ffffff;
   font-family: sans-serif;
-  
+}
+.shopbody h4 {
+  padding-left: -20px;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 
 .mainshop {
+  margin-left: 50px;
+  margin-right: 50px;
   gap: 20px;
   display: flex;
   padding: 20px;
@@ -32,20 +66,20 @@
   align-items: center;
 }
 
-.resetfilter{
+.resetfilter {
   font-size: 12px;
   color: #38bdf8;
 }
 
-.filterbox{
+.filterbox {
   padding-bottom: 50px;
   margin-top: 25px;
 }
-.filterbox input{
+.filterbox input {
   padding-bottom: 10px;
   margin-top: 15px;
 }
-.boxlist{
+.boxlist {
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -53,38 +87,37 @@
   color: #94a3b8;
   margin-top: 10px;
 }
-.sitempic1{
-  
-  background-size: cover;     
+.sitempic1 {
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 235px;
+  width: 280px;
   height: 235px;
 }
-.sitem{
+.sitem {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
-.shopsitem{
-  background-color: #183058 ;
+.shopsitem {
+  background-color: #183058;
   padding: 15px;
   border-radius: 20px;
 }
-.sitemhead{
-  background-color: #183058 ;
+.sitemhead {
+  background-color: #183058;
   padding-left: 20px;
   padding-top: 10px;
 }
-.DP{
-  background-color: #183058 ;
+.DP {
+  background-color: #183058;
   margin-left: 20px;
   margin-right: 20px;
   display: flex;
   justify-content: space-between;
 }
-.sbtndiv{
-  background-color: #183058 ;
+.sbtndiv {
+  background-color: #183058;
   margin-left: 20px;
   margin-right: 20px;
   display: flex;
@@ -94,15 +127,68 @@
   gap: 20px;
 }
 
-.siprice{
-  
-  background-color: #183058 ;
+.siprice {
+  background-color: #183058;
 }
-.shopbtn{
-    border: 1px aqua solid;
-    font-weight: bolder;
-    color: aqua;
-    border-radius: 10px;
-    flex: 1;
-    height: 35px;
-  }
+.shopbtn {
+  border: 1px aqua solid;
+  font-weight: bolder;
+  color: aqua;
+  border-radius: 10px;
+  flex: 1;
+  height: 35px;
+}
+.shopend {
+  background-color: #0b0f19;
+  padding-top: 30px;
+  gap: 30px;
+  justify-content: space-evenly;
+  display: flex;
+}
+.shoppic {
+  width: 500px;
+  margin: auto;
+  height: 400px;
+}
+
+.specrow {
+  background-color: #0b0f19;
+  margin-left: -20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #1f2937; /* Rows ke beech ki line */
+  font-size: 19px;
+}
+
+.specrowlastrow {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #0b0f19;
+  border-bottom: none; /* Last row ki line hatane ke liye */
+  font-size: 19px;
+}
+
+.speclabel {
+  font-size: 15px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  background-color: #0b0f19;
+  color: #9ca3af; /* Label ka color (gray) */
+}
+
+.specvalue {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  background-color: #0b0f19;
+  color: #38bdf8; /* Value ka color (blue) */
+  font-size: 15px;
+  text-align: right;
+}
+.specscontainer {
+  width: 600px;
+  background-color: #0b0f19;
+}
