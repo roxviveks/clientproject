@@ -1,10 +1,26 @@
-
+.shoptophead{
+  margin-left: 50px;
+  margin-right: 60px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.shoptophead h1{
+  font-size: 50px;
+  padding-top: 40px;
+  color: skyblue;
+  
+}
+.spa{
+  paddi-top: -20cmdpx;
+  margin-left: 50px;
+  text-decoration: none;color: skyblue;font-size: 14px;
+}
 
 .shopbody {
   padding-top: 150px;
   padding-bottom: 150px;
-  padding-left: 50px;
-  padding-right: 50px;
   background-color: #0b0f19;
   color: #ffffff;
   font-family: sans-serif;
@@ -12,6 +28,8 @@
 }
 
 .mainshop {
+  margin-left: 50px;
+  margin-right: 60px;
   gap: 20px;
   display: flex;
   padding: 20px;
@@ -58,13 +76,13 @@
   background-size: cover;     
   background-position: center;
   background-repeat: no-repeat;
-  width: 235px;
+  width: 270px;
   height: 235px;
 }
 .sitem{
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 50px;
 }
 .shopsitem{
   background-color: #183058 ;

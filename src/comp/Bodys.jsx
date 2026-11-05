@@ -8,6 +8,10 @@ import push from '../pics/pushupbar.jpg'
 import pull from '../pics/pullupbaar.jpg'
 import roll from '../pics/roller.jpg'
 import boll from '../pics/ball.jpg'
+import rope from "../pics/battlerope.jpg"
+import skip from '../pics/skiping.jpg'
+import foam from '../pics/foam.jpg'
+
 import sech from '../pics/homesecpic.png'
 
 const Bodys = () => {
@@ -133,6 +137,42 @@ const Bodys = () => {
         </div>
         <div className="homegymitems">
                     <img className="rods" src={boll} />
+          <span className="itemgym">  
+            <br />
+            <h1 className="gymitemhead">RODS & BARBELLS</h1>
+            <br />
+            <span className="GI">
+            <p className="gymitemprice">From ₹2,499</p>
+            <a href="#" className="cartadd">↗ </a>
+            </span>
+          </span>
+        </div>
+        <div className="homegymitems">
+                    <img className="rods" src={foam} />
+          <span className="itemgym">  
+            <br />
+            <h1 className="gymitemhead">RODS & BARBELLS</h1>
+            <br />
+            <span className="GI">
+            <p className="gymitemprice">From ₹2,499</p>
+            <a href="#" className="cartadd">↗ </a>
+            </span>
+          </span>
+        </div>
+        <div className="homegymitems">
+                    <img className="rods" src={skip} />
+          <span className="itemgym">  
+            <br />
+            <h1 className="gymitemhead">RODS & BARBELLS</h1>
+            <br />
+            <span className="GI">
+            <p className="gymitemprice">From ₹2,499</p>
+            <a href="#" className="cartadd">↗ </a>
+            </span>
+          </span>
+        </div>
+        <div className="homegymitems">
+                    <img className="rods" src={rope} />
           <span className="itemgym">  
             <br />
             <h1 className="gymitemhead">RODS & BARBELLS</h1>
