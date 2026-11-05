@@ -1,14 +1,14 @@
 import React from "react";
 import rods from "../pics/rods.jpg";
-import weight from "../pics/plate.jpg";
-import dmble from "../pics/dmb.png";
-import grip from "../pics/grip.jpg";
-import band from "../pics/band.jpg";
-import push from "../pics/pushupbar.jpg";
-import pull from "../pics/pullupbaar.jpg";
-import roll from "../pics/roller.jpg";
-import boll from "../pics/ball.jpg";
-import sech from "../pics/homesecpic.png";
+import weight from '../pics/plate.jpg'
+import dmble from '../pics/dmb.png'
+import grip from '../pics/grip.jpg'
+import band from '../pics/band.jpg'
+import push from '../pics/pushupbar.jpg'
+import pull from '../pics/pullupbaar.jpg'
+import roll from '../pics/roller.jpg'
+import boll from '../pics/ball.jpg'
+import sech from '../pics/homesecpic.png'
 
 const Bodys = () => {
   return (
@@ -172,6 +172,42 @@ const Bodys = () => {
               </a>
             </span>
           </span> 
+        </div>
+        <div className="homegymitems">
+                    <img className="rods" src={foam} />
+          <span className="itemgym">  
+            <br />
+            <h1 className="gymitemhead">RODS & BARBELLS</h1>
+            <br />
+            <span className="GI">
+            <p className="gymitemprice">From ₹2,499</p>
+            <a href="#" className="cartadd">↗ </a>
+            </span>
+          </span>
+        </div>
+        <div className="homegymitems">
+                    <img className="rods" src={skip} />
+          <span className="itemgym">  
+            <br />
+            <h1 className="gymitemhead">RODS & BARBELLS</h1>
+            <br />
+            <span className="GI">
+            <p className="gymitemprice">From ₹2,499</p>
+            <a href="#" className="cartadd">↗ </a>
+            </span>
+          </span>
+        </div>
+        <div className="homegymitems">
+                    <img className="rods" src={rope} />
+          <span className="itemgym">  
+            <br />
+            <h1 className="gymitemhead">RODS & BARBELLS</h1>
+            <br />
+            <span className="GI">
+            <p className="gymitemprice">From ₹2,499</p>
+            <a href="#" className="cartadd">↗ </a>
+            </span>
+          </span>
         </div>
       </div>
       <div className="homesec">
