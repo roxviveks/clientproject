@@ -21,10 +21,10 @@ const Nav = () => {
                 x2="100%"
                 y2="100%"
               >
-                <stop offset="0%" stop-color="#55B6F6" />
-                <stop offset="45%" stop-color="#7B93EC" />
-                <stop offset="85%" stop-color="#DE53D4" />
-                <stop offset="100%" stop-color="#EF49A9" />
+                <stop offset="0%" stopColor="#55B6F6" />
+                <stop offset="45%" stopColor="#7B93EC" />
+                <stop offset="85%" stopColor="#DE53D4" />
+                <stop offset="100%" stopColor="#EF49A9" />
               </linearGradient>
             </defs>
 

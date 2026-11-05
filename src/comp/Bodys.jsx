@@ -2,8 +2,11 @@ import React from "react";
 import rods from "../pics/rods.jpg";
 import weight from '../pics/plate.jpg'
 import dmble from '../pics/dmb.png'
-import grip from '../pics/grip.jpg'
+import skip from '../pics/skiping.jpg'
 import band from '../pics/band.jpg'
+import rope from '../pics/rope.jpg'
+ import grip from  '../pics/grip.jpg'
+import foam from '../pics/foam.jpg'
 import push from '../pics/pushupbar.jpg'
 import pull from '../pics/pullupbaar.jpg'
 import roll from '../pics/roller.jpg'

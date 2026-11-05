@@ -143,6 +143,7 @@
     background-color: rgb(19, 33, 56);
     display: flex;
     gap: 30px;
+    padding-bottom: 20px;
 }
 .price1{
     font-size: 40px;

@@ -61,12 +61,13 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 235px;
-  height: 235px;
+  width: 260px;
+  height: 230px;
 }
 .sitem {
   display: flex;
   flex-wrap: wrap;
+
   gap: 50px;
 }
 .shopsitem {
