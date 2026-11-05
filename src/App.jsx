@@ -3,6 +3,8 @@ import "./bundle.css"
 import './coaching.css'
 import "./about.css"
 import './shop.css'
+import './footer.css'
+
 import Nav from './docs/Nav'
 import Bodys from './comp/Bodys'
 import {  Route, Routes } from 'react-router-dom'
@@ -12,6 +14,7 @@ import Login from './comp/Login'
 import Bundal from './comp/Bundal'
 import Coach from './comp/Coach'
 import About from './comp/About'
+import Footer from './comp/Footer'
 
 const App = () => {
   return (
@@ -26,8 +29,8 @@ const App = () => {
         <Route path='/About' element ={<About />} />
         <Route path='/login' element={<Login />} />
       </Routes>
-
       
+        <Footer />
 
     </div>
   )

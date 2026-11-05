@@ -1,5 +1,15 @@
 import React from "react";
 import rods from "../pics/rods.jpg";
+import weight from '../pics/plate.jpg'
+import dmble from '../pics/dmb.png'
+import grip from '../pics/grip.jpg'
+import band from '../pics/band.jpg'
+import push from '../pics/pushupbar.jpg'
+import pull from '../pics/pullupbaar.jpg'
+import roll from '../pics/roller.jpg'
+import boll from '../pics/ball.jpg'
+import sech from '../pics/homesecpic.png'
+
 const Bodys = () => {
   return (
     <div className="homebody">
@@ -21,24 +31,125 @@ const Bodys = () => {
         </div>
         <div className="imge1"></div>
       </div>
+      <h1 className="homeitemsheading">YOUR SPACE. YOUR SETUP.</h1>
       <div className="homeitems">
-        <div className="rod">
+        <div className="homegymitems">
           <img className="rods" src={rods} />
-          <span className="itemrod">  
+          <span className="itemgym">  
             <br />
-            <h1 className="rodhead">RODS & BARBELLS</h1>
+            <h1 className="gymitemhead">RODS & BARBELLS</h1>
             <br />
-            <span className="RP">
-            <p className="rodprice">From ₹2,499</p>
+            <span className="GI">
+            <p className="gymitemprice">From ₹2,499</p>
             <a href="#" className="cartadd">↗ </a>
             </span>
-
           </span>
 
         </div>
-        <div className="plate"></div>
-        <div className="bags"></div>
-        <div className="kettbell"></div>
+        <div className="homegymitems">
+              <img className="rods" src={weight} />
+          <span className="itemgym">  
+            <br />
+            <h1 className="gymitemhead">RODS & BARBELLS</h1>
+            <br />
+            <span className="GI">
+            <p className="gymitemprice">From ₹2,499</p>
+            <a href="#" className="cartadd">↗ </a>
+            </span>
+          </span>
+          
+        </div>
+        <div className="homegymitems">
+              <img className="rods" src={dmble} />
+          <span className="itemgym">  
+            <br />
+            <h1 className="gymitemhead">RODS & BARBELLS</h1>
+            <br />
+            <span className="GI">
+            <p className="gymitemprice">From ₹2,499</p>
+            <a href="#" className="cartadd">↗ </a>
+            </span>
+          </span>
+        </div>
+        <div className="homegymitems">
+                    <img className="rods" src={grip} />
+          <span className="itemgym">  
+            <br />
+            <h1 className="gymitemhead">RODS & BARBELLS</h1>
+            <br />
+            <span className="GI">
+            <p className="gymitemprice">From ₹2,499</p>
+            <a href="#" className="cartadd">↗ </a>
+            </span>
+          </span>
+        </div>
+        <div className="homegymitems">
+                    <img className="rods" src={band} />
+          <span className="itemgym">  
+            <br />
+            <h1 className="gymitemhead">RODS & BARBELLS</h1>
+            <br />
+            <span className="GI">
+            <p className="gymitemprice">From ₹2,499</p>
+            <a href="#" className="cartadd">↗ </a>
+            </span>
+          </span>
+        </div>
+        <div className="homegymitems">
+                    <img className="rods" src={push} />
+          <span className="itemgym">  
+            <br />
+            <h1 className="gymitemhead">RODS & BARBELLS</h1>
+            <br />
+            <span className="GI">
+            <p className="gymitemprice">From ₹2,499</p>
+            <a href="#" className="cartadd">↗ </a>
+            </span>
+          </span>
+        </div>
+        <div className="homegymitems">
+                    <img className="rods" src={pull} />
+          <span className="itemgym">  
+            <br />
+            <h1 className="gymitemhead">RODS & BARBELLS</h1>
+            <br />
+            <span className="GI">
+            <p className="gymitemprice">From ₹2,499</p>
+            <a href="#" className="cartadd">↗ </a>
+            </span>
+          </span>
+        </div>
+        <div className="homegymitems">
+                    <img className="rods" src={roll} />
+          <span className="itemgym">  
+            <br />
+            <h1 className="gymitemhead">RODS & BARBELLS</h1>
+            <br />
+            <span className="GI">
+            <p className="gymitemprice">From ₹2,499</p>
+            <a href="#" className="cartadd">↗ </a>
+            </span>
+          </span>
+        </div>
+        <div className="homegymitems">
+                    <img className="rods" src={boll} />
+          <span className="itemgym">  
+            <br />
+            <h1 className="gymitemhead">RODS & BARBELLS</h1>
+            <br />
+            <span className="GI">
+            <p className="gymitemprice">From ₹2,499</p>
+            <a href="#" className="cartadd">↗ </a>
+            </span>
+          </span>
+        </div>
+      </div>
+      <div className="homesec">
+        <img className="picsec" src={sech} alt="" />
+        <div className="picsecinfo">
+          <p>02 / MORE GEAR. SMARTER VALUE.</p>
+          
+        </div>
       </div>
     </div>
   );
