@@ -1,0 +1,173 @@
+.navbar{
+  z-index: 999;
+border-top: 1px gray solid ;
+border-bottom: 1px gray solid ;
+  justify-content: space-between;
+  display: flex;
+  height: 110px;
+  position: fixed;
+  width: 100vw;
+}
+.nsearch{
+  display: flex;
+  align-items: center;
+}
+.ninput{ color: white;
+  width: 250px;
+  border: 1px white solid;
+  border-radius: 10px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top:8px ;
+  font-size: 15px;
+  transition: 0.5s ease-in-out;
+  padding-left: 20px;
+  margin-left: 20px;  
+}
+.navcart{
+  width: 30px;
+  height: 30px;
+  background-image: url(./pics/cart.png);
+  background-size: cover;     
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 20px;
+  margin-left: 20px;
+  transition: 0.5s ease-in-out;
+}
+.navcart:hover{
+  transform: scale(1.5);
+}
+.logo{
+  color: white  ;
+  display: flex;
+  align-items: center;
+}
+.df{
+  padding-right: 30px;
+  width: fit-content;
+  padding-left: 15px;
+  font-weight: bolder;
+  color: white;
+  text-decoration: none;
+  font-size: 27px;
+  transition: 0.5s ease-in-out;
+  
+}
+.fit{
+  color: magenta;
+}
+
+.svglog{
+  margin: 0;
+  width: 70px;
+  height: 100px;
+}
+.aboutus{
+  width: max-content;
+  font-size: 16px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+.home{
+  text-align: center;
+  width: 70px;
+  transition:  ease-out 0.5s;
+}
+.home:hover{
+   font-weight: bolder;
+  color: magenta;
+  font-size: 22px;
+  transform: scale(1.1);
+}
+.shop{
+  text-align: center;
+  width: 50px;
+  transition:  ease-out 0.5s;
+  
+}
+.shop:hover{
+  font-weight: bolder;
+  /* width: 100px; */
+  color: magenta;
+  font-size: 20px;
+  transform: scale(1.1);
+}
+.bundle{
+  text-align: center;
+  transition:  ease-out 0.5s;
+  width: 90px;
+  
+}
+.bundle:hover{
+  /* width: 100px; */
+  font-weight: bolder;
+  color: magenta;
+  font-size: 22px;
+  transform: scale(1.1);
+}
+.coaching{
+  text-align: center;
+  width: 100px;
+  transition:  ease-out 0.5s;
+}
+.coaching:hover{
+  font-weight: bolder;
+  /* width: 120px; */
+  color: magenta;
+  font-size: 18px;
+  transform: scale(1.1);
+}
+.about{
+  text-align: center;     
+  width: 80px;
+  transition:  ease-out 0.5s;
+  
+}
+.about:hover{
+  font-weight: bolder;
+  color: magenta;
+  font-size: 22px;
+  transform: scale(1.1);
+}
+.terms{
+  text-align: center;
+  width: 70px;
+  color: white;
+  transition:  ease-out 0.5s;
+}
+.terms:hover{
+  font-weight: bolder;
+  transform: scale(1.1);
+  color: magenta;
+  font-size: 20px;
+}
+.aboutus a{
+    text-decoration: none;
+    color: white;
+}
+.menu{
+  display: flex;
+  align-items: center;
+}
+.log{
+  border-radius: 50%;
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 70px;
+  color: white;
+  text-decoration: none;
+  font-size: 19px;
+  margin-right: 30px;
+  transition: 0.5s ease-in-out;
+
+}
+.log:hover{
+  font-weight: bolder;
+  color: magenta;
+  font-size: 20px;
+  transform: scale(1.5);
+}

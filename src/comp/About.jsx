@@ -1,6 +1,10 @@
 import React from "react";
 import abpic from "../pics/aboutpics.png";
-import abpic2 from '../pics/aboutpic2.png'
+import abpic2 from "../pics/aboutpic2.png";
+import order from "../pics/package.png"
+import retun from "../pics/return.png"
+import safety from "../pics/product.png"
+import book from "../pics/booking.png"
 const About = () => {
   return (
     <>
@@ -53,13 +57,14 @@ const About = () => {
             </p>
           </div>
         </div>
-
+    <div className="aboutmidvision">
         <p className="visions">ONE BRAND. THREE CONNECTED PARTS.</p>
         <h1 className="visionhead1">MORE THAN A SET OF WEIGHTS.</h1>
+        </div>
         <div className="setofweight">
           <div className="equipment">
-            <svg 
-            className="svgicon"
+            <svg
+              className="svgicon"
               fill="#00b8e6"
               height="30px"
               width="30px"
@@ -147,9 +152,7 @@ const About = () => {
                 stroke-linejoin="round"
               ></g>
               <g id="SVGRepo_iconCarrier">
-
                 <g>
-                  
                   <path d="M327.5,309.601H35V17.899c0-9.665-7.835-17.5-17.5-17.5C7.835,0.399,0,8.234,0,17.899v309.202 c0,9.665,7.835,17.5,17.5,17.5h310c9.665,0,17.5-7.835,17.5-17.5C345,317.436,337.165,309.601,327.5,309.601z"></path>{" "}
                   <path d="M75.552,234.954c4.737,0,9.458-1.912,12.91-5.68l48.744-53.222l87.189,38.293c7.5,3.294,16.285,0.944,21.137-5.658 l53.488-72.763l4.493,31.321c1.252,8.725,8.736,15.019,17.301,15.018c0.827,0,1.665-0.059,2.506-0.18 c9.567-1.372,16.21-10.24,14.838-19.807l-10.626-74.086c-1.372-9.567-10.243-16.207-19.807-14.838L233.64,83.978 c-9.567,1.372-16.211,10.24-14.838,19.807c1.372,9.567,10.241,16.211,19.807,14.838l33.19-4.76l-46.163,62.799l-85.832-37.697 c-6.861-3.013-14.88-1.323-19.942,4.203l-57.21,62.465c-6.528,7.127-6.042,18.197,1.085,24.725 C67.096,233.435,71.331,234.954,75.552,234.954z"></path>{" "}
                 </g>
@@ -167,11 +170,53 @@ const About = () => {
           <img src={abpic2} className="abpic2" />
           <div className="traindiv">
             <p className="trainpara">CLARITY BEFORE EVERY REP</p>
-            <h1 className="trainhead">TRAIN WITH INTENT. <br />USE WITH CARE.</h1>
-            <p className="trainline">The right choice starts with clear information. Check individual and total set weights, manufacturer age guidance and maximum rated loads before training.</p>
-            <p className="trainline">Inspect your equipment every time. Respect manufacturer limits. Speak with a doctor before starting a new exercise program when appropriate.</p>
+            <h1 className="trainhead">
+              TRAIN WITH INTENT. <br />
+              USE WITH CARE.
+            </h1>
+            <p className="trainline">
+              The right choice starts with clear information. Check individual
+              and total set weights, manufacturer age guidance and maximum rated
+              loads before training.
+            </p>
+            <p className="trainline">
+              Inspect your equipment every time. Respect manufacturer limits.
+              Speak with a doctor before starting a new exercise program when
+              appropriate.
+            </p>
             <div className="trainbtn">Read safety & responsibility terms ↗</div>
           </div>
+        </div>
+      </div>
+      <div className="abouthelphead">
+        <p className="endvision">HELP FOR YOUR NEXT STEP</p>
+        <h1 className="helphead">WE’RE HERE TO HELP.</h1>
+        <p>Support covers the equipment you buy and the coaching you book.</p>
+      </div>
+      <div className="helpabout">
+        <div className="helpdiv">
+          <img className="helpsvg" src={order} alt="" />
+          <h2 className="helpsvghead">Orders & delivery</h2>
+          <p className="helpsvgpara">Order confirmations and tracking.</p>
+        </div>
+        <div className="helpdiv">
+          <img className="helpsvg" src={retun} alt="" />
+          <h2 className="helpsvghead">Returns & refunds</h2>
+          <p className="helpsvgpara">
+            Product return guidance and item issues.
+          </p>
+        </div>
+        <div className="helpdiv">
+          <img className="helpsvg" src={safety} alt="" />
+          <h2 className="helpsvghead">Product safety</h2>
+          <p className="helpsvgpara">
+            Specifications and manufacturer guidance.
+          </p>
+        </div>
+        <div className="helpdiv">
+          <img className="helpsvg" src={book} alt="" />
+          <h2 className="helpsvghead">Coaching bookings</h2>
+          <p className="helpsvgpara">Appointments, plans and scheduling.</p>
         </div>
       </div>
     </>

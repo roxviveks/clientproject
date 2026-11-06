@@ -2,7 +2,7 @@
     padding-top: 150px;
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 150px;
+    padding-bottom: 50px;
     color: aliceblue;
 }
 .coachdiv{
@@ -58,12 +58,25 @@
 }
 .coachbody{
     gap: 30px;
+    
+    padding-bottom: 50px;
     justify-content: center;
     display: flex;
 }
 .cdiv1{
     padding: 20px;
+    width: 400px;
     border: 2px aqua solid;
+}
+.booknotecoach{
+    border: 1px rgb(0, 183, 255) solid;
+    color: magenta;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 20px;
+    margin-right: -20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: -20px;
 }
 .coachdp{
     padding-bottom: 20px;
@@ -108,6 +121,249 @@
     text-align: center;    
     background-color: magenta;
 }
+.line{
+    border-top: 1px aqua solid;
+    padding-bottom: 50px;
+}
+.coachnamediv{
+    padding-left: 50px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+.coachpage2{
+    background-color: rgb(0, 0, 0);
+    color: magenta;
+    padding-bottom: 20px;
+    font-size: 9px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 40px;
+}
+.coachpagehead{
+    font-size: 35px;
+    color: rgb(2, 176, 251);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(0, 0, 0);
+    
+}
+.biotop{
+    color: rgb(2, 176, 251);
+    font-size: 9px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-bottom: 20px;
+}
+.biohead{
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 20px;
+}
+.biopara{
+    padding-bottom: 20px;
+    font-size: 13px;
+    padding-right: 20px;
+}
+.bookcoach{
+    margin-top: 25px;
+    background-color: magenta;
+    padding-top: 10px;
+    width: fit-content;
+    /* display: flex; */
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.coachpicdiv{
+    background-color: rgb(0, 0, 0);
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+.coachpicdiv img{
+    padding: 20px;
+    width: 250px;
+}
+.coachbio{
+    color: aliceblue;
+    display: flex;
+    /* padding-top: 20px; */
+}
+.consultation-container {
+    width: 100%;
+    max-width: 600px;
+    background-color: #0d1117;
+    padding: 24px;
+}
+
+/* Header */
+.consultation-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.consultation-header h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #e6edf3;
+}
+
+.status-badge {
+    background-color: #ff007f;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 6px 12px;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+}
+
+/* Form Row (Flexbox Only) */
+.form-row {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.half-width {
+    flex: 1; /* Dono inputs ko barabar jagah dene ke liye */
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.input-group.full-width {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    font-size: 14px;
+    color: #8b949e;
+}
+
+/* Inputs / Select Boxes */
+.select-box, .text-box {
+    background-color: #111827;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    padding: 14px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    color: #f0f6fc;
+}
+
+.select-box .arrow {
+    color: #8b949e;
+    font-size: 12px;
+}
+
+.placeholder {
+    color: #8b949e;
+}
+
+/* Highlighted Experience Box */
+.experience-group .highlight-label {
+    color: #58a6ff;
+}
+
+.select-box.active-pink {
+    border: 1px dashed #58a6ff;
+    outline: 1px solid #ff007f;
+}
+
+.error-text {
+    color: #ff007f;
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+/* Footer Section */
+.consultation-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px 0 16px 0;
+}
+
+.footer-info .date-time {
+    font-size: 15px;
+    color: #e6edf3;
+    margin-bottom: 4px;
+}
+
+.footer-info .duration {
+    font-size: 14px;
+    color: #8b949e;
+}
+
+.price-tag {
+    font-size: 32px;
+    font-weight: 700;
+    color: #58a6ff;
+}
+
+/* Button */
+.book-btn {
+    width: 100%;
+    background-color: #ff2ea6;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin-bottom: 20px;
+}
+
+.book-btn:hover {
+    background-color: #e02492;
+}
+
+/* Terms Note */
+.terms-text {
+    font-size: 12px;
+    color: #8b949e;
+    line-height: 1.5;
+}
+.endcoachdiv{
+    color: white    ;
+    display: flex;
+    padding-top: 50px;
+    /* padding-left: 30px; */
+    /* padding-right: 40px; */
+    padding-bottom: 50px;
+    /* gap: 50px; */
+    justify-content: space-evenly;
+}
+.enddiv{
+    background-color: black;
+    padding: 20px 40px;
+}
+.enddiv h5{
+    background-color: black;
+    color: aqua;
+    padding-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.enddiv p{
+    background-color: black;
+    width: 300px;
+ padding-top: 10px;
+    font-size: 12px;
+}
+
 
 
 

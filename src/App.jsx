@@ -3,8 +3,8 @@ import "./bundle.css"
 import './coaching.css'
 import "./about.css"
 import './shop.css'
+import './nav.css'
 import './footer.css'
-
 import Nav from './docs/Nav'
 import Bodys from './comp/Bodys'
 import {  Route, Routes } from 'react-router-dom'

@@ -41,7 +41,7 @@
 }
 .infoline{
     color: rgb(215, 220, 220);
-    font-size: 17px;
+    font-size: 15px;
     padding-top: 20px;
 
 }
@@ -127,22 +127,23 @@
     flex-wrap: wrap;
     margin-left: -10px;
     margin-top: 50px;
-    justify-content: space-evenly;
+    justify-content: center;
     display: flex;
 
  }
  .bdumb{
     padding: 10px;
+    width: fit-content;
  }
  .bndl2{
     /* margin-left:-8px ; */
-    width: 400px;
+    width: 350px;
     height: 200px;
  }
  .bdprice{
     background-color: rgb(19, 33, 56);
     display: flex;
-    gap: 30px;
+    gap: 20px;
     padding-bottom: 20px;
 }
 .price1{
@@ -162,17 +163,23 @@
 .infolines{
     background-color: rgb(19, 33, 56);
     color: rgb(215, 220, 220);
-    font-size: 17px;
+    font-size: 13px;
     padding-top: 20px;
 
 }
 .itemhead{
     background-color: rgb(19, 33, 56);
     color: aqua;
+    font-size: 27px;
 }
 .review{
     background-color: rgb(19, 33, 56);
     color: magenta;
+}
+.bndlbtn{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 .addtcart{ 
 
@@ -187,7 +194,7 @@
     
 }
 .buynow{
-    margin-left: 30px;
+    /* margin-left: 30px; */
     background-color: magenta;
     font-weight: bolder;
     color: rgb(0, 0, 0);

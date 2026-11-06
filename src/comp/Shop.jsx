@@ -11,6 +11,7 @@ import boll from "../pics/balls.jpg";
 const Shop = () => {
   return (
     <div className="shopbody">
+      <h4></h4>
       <div className="mainshop">
         <div className="sidebar">
           <div className="filterdiv">

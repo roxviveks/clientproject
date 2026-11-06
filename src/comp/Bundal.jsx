@@ -72,8 +72,10 @@ const Bundal = () => {
               <p className="price1">₹3,999</p>
               <p className="price2">₹4,497</p>
             </div>
+            <div className="bndlbtns">
             <button className="addtcart">Add bundle to cart</button>
             <button className="buynow">Buy now</button>
+            </div>
           </span>
         </div>
         <div className="bdumb">
@@ -93,8 +95,10 @@ const Bundal = () => {
               <p className="price1">₹5,999</p>
               <p className="price2">₹8,490</p>
             </div>
+            <div className="bndlbtns">
             <button className="addtcart">Add bundle to cart</button>
             <button className="buynow">Buy now</button>
+            </div>
           </span>
         </div>
         <div className="bdumb">
@@ -114,8 +118,10 @@ const Bundal = () => {
               <p className="price1">₹9,999</p>
               <p className="price2">₹15,499</p>
             </div>
+            <div className="bndlbtns">
             <button className="addtcart">Add bundle to cart</button>
             <button className="buynow">Buy now</button>
+            </div>
           </span>
         </div>
       </div>
