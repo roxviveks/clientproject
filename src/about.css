@@ -1,6 +1,5 @@
 .aboutmain{
     color: white;
-    text-shadow: 2px 8px 10px rgb(255, 0, 247);
     padding-top: 150px;
 }
 .abouthp{
@@ -31,6 +30,7 @@
     align-items: center;
 }
 .abhead{
+    text-shadow: 1px 4px 10px rgb(255, 0, 247);
     padding-left: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 500px;
@@ -44,7 +44,7 @@
     padding-right: 30px;
     color: rgb(205, 205, 205);
     font-size: 20px;
-        margin-top: 100px;
+    margin-top: 100px;
 }
 .abthpic1{
     display: flex;
@@ -87,6 +87,7 @@
 }
 .visionhead{
     background-color: black;
+    text-shadow: 1px 4px 10px rgb(255, 0, 247);
     color:aqua;
     font-size: 40px;
     padding-bottom: 30px;

@@ -1,4 +1,40 @@
 
+.smain{
+  padding-top: 150px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.shophead{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+}
+.shoppara{
+  color: white;
+  font-size: 20px;
+}
+.shopgrid{
+  padding-bottom: 200px;
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+}
+.item1{
+  padding: 20px;
+  grid-column: 1/4;
+  gap: 10px;
+  border: 1px rgb(56, 54, 119) solid;
+  border-radius: 20px;
+  height: 500px;
+
+}
+.item1 input{
+  font-size: 20px;
+}
+.item1 label{
+  padding-left: 10px;
+  font-size: 20px;
+}
+
 
 .shopbody {
   padding-top: 150px;
@@ -14,7 +50,6 @@
   margin-right: 50px;
   margin-left: 50px;
 }
-
 .mainshop {
   gap: 20px;
   display: flex;

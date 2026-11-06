@@ -1,17 +1,17 @@
 import React from "react";
 import rods from "../pics/rods.jpg";
-import weight from '../pics/plate.jpg'
-import dmble from '../pics/dmb.png'
-import skip from '../pics/skiping.jpg'
-import band from '../pics/band.jpg'
-import rope from '../pics/rope.jpg'
- import grip from  '../pics/grip.jpg'
-import foam from '../pics/foam.jpg'
-import push from '../pics/pushupbar.jpg'
-import pull from '../pics/pullupbaar.jpg'
-import roll from '../pics/roller.jpg'
-import boll from '../pics/ball.jpg'
-import sech from '../pics/homesecpic.png'
+import weight from "../pics/plate.jpg";
+import dmble from "../pics/dmb.png";
+import skip from "../pics/skiping.jpg";
+import band from "../pics/band.jpg";
+import rope from "../pics/rope.jpg";
+import grip from "../pics/grip.jpg";
+import foam from "../pics/foam.jpg";
+import push from "../pics/pushupbar.jpg";
+import pull from "../pics/pullupbaar.jpg";
+import roll from "../pics/roller.jpg";
+import boll from "../pics/ball.jpg";
+import sech from "../pics/homesecpic.png";
 
 const Bodys = () => {
   return (
@@ -174,41 +174,47 @@ const Bodys = () => {
                 ↗{" "}
               </a>
             </span>
-          </span> 
+          </span>
         </div>
         <div className="homegymitems">
-                    <img className="rods" src={foam} />
-          <span className="itemgym">  
+          <img className="rods" src={foam} />
+          <span className="itemgym">
             <br />
             <h1 className="gymitemhead">RODS & BARBELLS</h1>
             <br />
             <span className="GI">
-            <p className="gymitemprice">From ₹2,499</p>
-            <a href="#" className="cartadd">↗ </a>
+              <p className="gymitemprice">From ₹2,499</p>
+              <a href="#" className="cartadd">
+                ↗{" "}
+              </a>
             </span>
           </span>
         </div>
         <div className="homegymitems">
-                    <img className="rods" src={skip} />
-          <span className="itemgym">  
+          <img className="rods" src={skip} />
+          <span className="itemgym">
             <br />
             <h1 className="gymitemhead">RODS & BARBELLS</h1>
             <br />
             <span className="GI">
-            <p className="gymitemprice">From ₹2,499</p>
-            <a href="#" className="cartadd">↗ </a>
+              <p className="gymitemprice">From ₹2,499</p>
+              <a href="#" className="cartadd">
+                ↗{" "}
+              </a>
             </span>
           </span>
         </div>
         <div className="homegymitems">
-                    <img className="rods" src={rope} />
-          <span className="itemgym">  
+          <img className="rods" src={rope} />
+          <span className="itemgym">
             <br />
             <h1 className="gymitemhead">RODS & BARBELLS</h1>
             <br />
             <span className="GI">
-            <p className="gymitemprice">From ₹2,499</p>
-            <a href="#" className="cartadd">↗ </a>
+              <p className="gymitemprice">From ₹2,499</p>
+              <a href="#" className="cartadd">
+                ↗{" "}
+              </a>
             </span>
           </span>
         </div>
@@ -236,6 +242,35 @@ const Bodys = () => {
           <div className="homebookdiv">
             <div className="booknowhome">Explore gym bundles ↗</div>
           </div>
+        </div>
+      </div>
+      <div className="line03"></div>
+      <div className="homecoach">
+        <div className="hcoachinfo">
+          <p className="hcpara">03 / TRAIN WITH DIRECTION</p>
+          <h1 className="hch1">
+            GOOD EQUIPMENT. <br />
+            BETTER GUIDANCE.
+          </h1>
+          <p className="hcpara1">
+            Get a plan that meets you where you are. Work on technique, build
+            consistency and track your <br /> progress with an online coach.
+          </p>
+          <p className="hclinkp">
+            Beginner foundations / Muscle building / Fat loss / Strength
+          </p>
+          <div className="hcbtnp">
+            <div className="meetc">Meet your coach ↗</div>
+            <div className="bookhc">Book Now</div>
+            <p className="hcpara1">
+              Consultations from ₹499 · Online · Built around your goals
+            </p>
+          </div>
+        </div>
+        <div className="hcpics">
+          <img className="hcpic" src="" alt="" />
+          <h6></h6>
+          <p></p>
         </div>
       </div>
     </div>
