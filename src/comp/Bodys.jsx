@@ -12,6 +12,7 @@ import pull from "../pics/pullupbaar.jpg";
 import roll from "../pics/roller.jpg";
 import boll from "../pics/ball.jpg";
 import sech from "../pics/homesecpic.png";
+import gym from "../pics/gymcoach.jpg";
 
 const Bodys = () => {
   return (
@@ -254,7 +255,7 @@ const Bodys = () => {
           </h1>
           <p className="hcpara1">
             Get a plan that meets you where you are. Work on technique, build
-            consistency and track your <br /> progress with an online coach.
+            consistency and track your progress with an online coach.
           </p>
           <p className="hclinkp">
             Beginner foundations / Muscle building / Fat loss / Strength
@@ -262,15 +263,49 @@ const Bodys = () => {
           <div className="hcbtnp">
             <div className="meetc">Meet your coach ↗</div>
             <div className="bookhc">Book Now</div>
-            <p className="hcpara1">
-              Consultations from ₹499 · Online · Built around your goals
+          </div>
+          <p className="hcpara2">
+            Consultations from ₹499 · Online · Built around your goals
+          </p>
+        </div>
+        <div className="hcpics">
+          <img className="hcpic" src={gym} alt="" />
+          <div className="aditiinfo">
+            <h6 className="aditicoach">Aditi Rao · Strength & foundations</h6>
+            <p className="aditipara">
+              Sample coach profile · Individual plans, shared commitment.
             </p>
           </div>
         </div>
-        <div className="hcpics">
-          <img className="hcpic" src="" alt="" />
-          <h6></h6>
-          <p></p>
+      </div>
+      <div className="homeend">
+        <p className="homeitemp">ONE CONNECTED JOURNEY</p>
+        <h2 className="homeitemsheading">EQUIP. TRAIN. PROGRESS.</h2>
+      </div>
+      <div className="homerecape">
+        <div className="recapdiv">
+          <span className="countno">01/</span>
+          <h2 className="counthead">CHOOSE YOUR GEAR</h2>
+          <p className="countpara">
+            Compare weight, materials and manufacturer guidance. Build a setup
+            that fits your space.
+          </p>
+        </div>
+        <div className="recapdiv">
+          <span className="countno">02/</span>
+          <h2 className="counthead">FIND YOUR DIRECTION</h2>
+          <p className="countpara">
+            Choose a coach and book an online consultation. Get a practical plan
+            for your goals.
+          </p>
+        </div>
+        <div className="recapdiv">
+          <span className="countno">03/</span>
+          <h2 className="counthead">MAKE IT A ROUTINE</h2>
+          <p className="countpara">
+            See your workouts, upcoming sessions and progress together in your
+            account.
+          </p>
         </div>
       </div>
     </div>

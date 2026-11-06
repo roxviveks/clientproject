@@ -1,7 +1,7 @@
 *{
   margin: 0;
   padding: 0;
-  z-index: 0;
+  z-index: 9;
   background-color: rgb(24, 29, 58);
 }
   /* The bodys code */
@@ -31,13 +31,14 @@
   /* border-radius: 10px; */
   /* box-shadow: inset 0px -3px 29px 4px black; */
   color: aliceblue;
-  gap: 20px;
+  gap: 10px;
   display: grid;
   grid-template-columns: repeat(13,1fr);
   margin-bottom: 100px;
   /* padding: 2px; */
 }
 .imge1{
+  z-index: 5;
   box-shadow: inset 0px -3px 29px 4px black;
   border-radius: 30px;
   grid-column: 7/14;
@@ -45,26 +46,50 @@
   background-size: cover;     
   background-position: center;
   background-repeat: no-repeat;
+  transition: 0.5s ease-in-out;
 }
+
 .write{
-  
+  transition: 0.5s ease-in-out;
   height: 400px;
-  gap: 20px;
+  gap: 10px;
   grid-column: 1/7;
   padding: 30px;
 }
-.head1{
-  font-size: 58px;
-  padding-bottom: 30px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.dmbp{
-  font-family: serif;
-  text-align: left;
-  font-size: 20px;
-  padding-bottom: 30px;
-}
-.btns{
+.write:hover{
+    background-color: transparent;
+    transform: translateX(80px) scale(1.2);
+  }
+  .head1{
+    display: inline-block;
+    transition: 0.5s ease-in-out;
+    font-size: 58px;
+    background-color: transparent;  
+    padding-bottom: 30px;
+    background-color: transparent;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 10;
+  }
+  /* .head1:hover{
+    background-color: transparent;
+    transform: translateY(-10px) translateX(150px) scale(1.2) ;
+    color: magenta;
+    } */
+    .dmbp{
+      background-color: transparent;
+      transition: 0.5s ease-in-out;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: left;
+      font-size: 14px;
+      padding-bottom: 30px;
+      height: 40px;
+    }
+    /* .dmbp:hover{
+      font-size: 15px;
+      color: aqua;
+      /* font-size: 12px; */
+      .btns{
+  background-color: transparent;  
   display: flex;
   gap: 30px;
 }
@@ -114,6 +139,7 @@
   font-size: 50px;
 }
 .homegymitems{
+  transition: 0.3s ease-in-out;
   box-shadow: 0px 0px 9px 0px magenta;
   border-radius: 10px;
   padding: 20px;
@@ -122,14 +148,22 @@
   height: max-content;
   margin-left: 20px;
 }
+.homegymitems:hover{
+  transform: translateY(-50px);
+}
 .rods{
-    background-size: cover;     
+  transition: 0.3s ease-in-out;
+  background-size: cover;     
   background-position: center;
   background-repeat: no-repeat;
   background-color: rgb(43, 43, 91);
   border-radius: 5px;
   width: 300px;
   height: 210px;
+}
+.rods:hover{
+  transform: translateY(-10px) scale(1.1);
+
 }
 .itemgym{
   background-color: rgb(43, 43, 91);
@@ -210,7 +244,7 @@
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
-
+  
   background-color: magenta;
 }
 .pricehomesec2{
@@ -231,22 +265,127 @@
   padding-bottom: 30px;
   background-color: black;
   display: flex;
+  gap: 30px;
 }
 .line03{
   border-bottom:2px rgb(110, 109, 109) solid ;
   margin-bottom: 50px;
 }
 .hcoachinfo{
+  background-color: transparent;
   color: whitesmoke;
 }
 .hcpara{
-  
+  background-color: transparent;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(0, 179, 255);
+  padding-bottom: 20px;
 }
-
-
-
-
+.hch1{
+  background-color: transparent;
+  font-size: 45px;
+  padding-bottom: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hcpara1{
+  width: 600px;
+  background-color: transparent;
+  padding-bottom: 30px;
+  font-size: 15px;
+}
+.hclinkp{
+  background-color: transparent;
+  padding-bottom: 20px;
+  color: aqua;
+}
+.hcbtnp{
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  gap: 20px;  
+  padding-bottom: 20px; 
+}
+.meetc{
+  background-color: cyan;
+  padding-top: 10px;
+  color: black;
+  font-weight: bolder;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.bookhc{
+  background-color: magenta;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: black;
+  font-weight: bolder;
+  padding-bottom: 10px;
+  padding-left:  35px;
+  padding-right: 35px;
+}
+.hcpara2{
+  color: white;
+  background-color: transparent;
+  font-size: 14px;
+}
+.hcpic{
+  background-color: rgb(43, 43, 91);
+  width: 500px;
+  padding: 10px ;
+  height: 400px;
+}
+.hcpics{
+  background-color: rgb(43, 43, 91);
+}
+.aditiinfo{
+  padding-left: 15px;
+  background-color: rgb(43, 43, 91);
+  padding-bottom: 20px;
+}
+.aditicoach{
+  font-size: 14px;
+  padding-bottom: 10px;
+  background-color: rgb(43, 43, 91);
+  color: aqua;
+  font-family: Verdana, Geneva, Tahoma, sans-serif4;
+}
+.aditipara{
+  /* padding: 10px; */
+  background-color: rgb(43, 43, 91);
+  color: white;
+  font-size: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.homeend{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+.homerecape{
+  display: flex;
+  gap: 20px;
+  color: white;
+  padding-right: 50px;
+  padding-left: 50px;
+  justify-content: space-between;
+}
+.recapdiv{
+  background-color: black;
+  padding:20px;
+  width: 500px;
+}
+.countno{
+  background-color: black;
+  color: aqua;
+  font-size: 22px;
+  padding-left: 10px;
+  margin-right: 100px;
+  border-bottom: 1px gray solid;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 
 
