@@ -1,7 +1,7 @@
 
 .termsmains{
   color: white;
-  padding-top: 100px;
+  /* padding-top: 100px; */
   padding-left: 80px;
   padding-right: 80px;
 }
@@ -64,18 +64,19 @@
   width: 500px;
 }
 .asideol{
- border-bottom: 1px gray solid;
- /* margin-left:  20px; */
+  border-bottom: 1px gray solid;
+  /* margin-left:  20px; */
   padding-bottom: 30px; 
   
- }
-.asideli{margin-left: 30px;
+}
+.asideli{
+  margin-left: 30px;
+  text-decoration: none;
   color: rgb(0, 187, 255);
-  font-size: 13px;
+  font-size: 14px;
   gap: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   padding-bottom: 30px;
-  /* padding-right: 30px; */
 }
 .asidep{
   margin-left: 10px;

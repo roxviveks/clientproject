@@ -39,9 +39,10 @@ const Bodys = () => {
           </div>
         </div>
         <div className="imge1"></div>
+      <span id="first"></span>
       </div>
       <div className="homeshop">
-        <p className="homeitemp">01 / EQUIP YOUR AMBITION</p>
+        <p  className="homeitemp">01 / EQUIP YOUR AMBITION</p>
         <h1 className="homeitemsheading">YOUR SPACE. YOUR SETUP.</h1>
         <span className="deolf1">
           DEOL FITNESS
@@ -220,15 +221,16 @@ const Bodys = () => {
           </span>
         </div>
       </div>
+      <span id="second"></span>
       <div className="homesec">
         <img className="picsec" src={sech} />
         <div className="picsecinfo">
-          <p>02 / MORE GEAR. SMARTER VALUE.</p>
+          <p className="moregear">02 / MORE GEAR. SMARTER VALUE.</p>
           <h2 className="picsechead1">
             YOUR HOME GYM. <br />
             ALL TOGETHER.
           </h2>
-          <p>
+          <p className="gearpara">
             A bench, adjustable dumbbells, a straight bar and a plate pair. One
             considered setup for your next chapter.
           </p>
@@ -245,7 +247,8 @@ const Bodys = () => {
           </div>
         </div>
       </div>
-      <div className="line03"></div>
+      <span id="three"></span>
+      <div className="line03" ></div>
       <div className="homecoach">
         <div className="hcoachinfo">
           <p className="hcpara">03 / TRAIN WITH DIRECTION</p>
@@ -283,30 +286,30 @@ const Bodys = () => {
         <h2 className="homeitemsheading">EQUIP. TRAIN. PROGRESS.</h2>
       </div>
       <div className="homerecape">
-        <div className="recapdiv">
+        <a href="#first" className="recapdiv">
           <span className="countno">01/</span>
           <h2 className="counthead">CHOOSE YOUR GEAR</h2>
           <p className="countpara">
             Compare weight, materials and manufacturer guidance. Build a setup
             that fits your space.
           </p>
-        </div>
-        <div className="recapdiv">
+        </a>
+        <a href="#second" className="recapdiv">
           <span className="countno">02/</span>
           <h2 className="counthead">FIND YOUR DIRECTION</h2>
           <p className="countpara">
             Choose a coach and book an online consultation. Get a practical plan
             for your goals.
           </p>
-        </div>
-        <div className="recapdiv">
+        </a>
+        <a href="#three" className="recapdiv">
           <span className="countno">03/</span>
           <h2 className="counthead">MAKE IT A ROUTINE</h2>
           <p className="countpara">
             See your workouts, upcoming sessions and progress together in your
             account.
           </p>
-        </div>
+        </a>
       </div>
     </div>
   );

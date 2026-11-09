@@ -1,6 +1,31 @@
+.SHOP{
+  background-color: #0b0f19;
+  
+}
+.shoptop{
+  padding: 20px 50px;
+  display: flex;
+  align-items: baseline;
+  color: white;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: #0b0f19;
+}
+.shoptop h1{
+  background-color: #0b0f19;
+  color: aqua;
+  font-size: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.paratopshop{
+  background-color: #0b0f19;
+  color: white;
+  font-size: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 .smain{
-  padding-top: 150px;
+  /* padding-top: 150px; */
   padding-left: 80px;
   padding-right: 80px;
 }
@@ -37,8 +62,9 @@
 
 
 .shopbody {
-  padding-top: 150px;
+  padding-top:  10px;
   padding-bottom: 150px;
+  background-color: #0b0f19;
   padding-left: 50px;
   padding-right: 50px;
   background-color: #0b0f19;
@@ -139,8 +165,18 @@
 .shopbtn {
   border: 1px aqua solid;
   font-weight: bolder;
-  color: aqua;
-  border-radius: 10px;
+  color: black;
+  background-color: aqua;
+  border-radius: 5px;
+  flex: 1;
+  height: 35px;
+}
+.shopbtn1 {
+  background-color: magenta;
+  border: 1px magenta solid;
+  font-weight: bolder;
+  color: black;
+  border-radius: 5px;
   flex: 1;
   height: 35px;
 }
@@ -198,3 +234,54 @@
   width: 600px;
   background-color: #0b0f19;
 }
+.shopenddiv{
+  color: whitesmoke;
+  display: flex;
+  padding-top: 30px;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+
+}
+.divlift{
+  color: aqua;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  padding-bottom: 20px;
+}
+.endlifthead{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 10px;
+  color: aqua;
+  font-size: 45px;
+}
+.endliftpara{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+
+.imgend{
+  width: 500px;
+}
+.endmatirial{
+  display: flex;
+  gap: 50px;
+
+}
+.endmatirial p{
+  border-bottom: 1px gray solid;
+
+}
+.matirial p {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.matinfo p {
+  color: aqua;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+

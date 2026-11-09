@@ -10,14 +10,21 @@ import band from "../pics/band.jpg";
 import boll from "../pics/balls.jpg";
 const Shop = () => {
   return (
-    <div className="shopbody">
-      <h4></h4>
-      <div className="mainshop">
-        <div className="sidebar">
-          <div className="filterdiv">
-            <h3>Filters</h3>
-            <span className="resetfilter">Reset all</span>
-          </div>
+    <div className="SHOP">
+      <div className="shoptop">
+        <h1>BUILT FOR THE WORK.</h1>
+        <p className="paratopshop ">
+          From your first dumbbell to your next barbell. Find the right weight
+          for the way you train.
+        </p>
+      </div>
+      <div className="shopbody">
+        <div className="mainshop">
+          <div className="sidebar">
+            <div className="filterdiv">
+              <h3>Filters</h3>
+              <span className="resetfilter">Reset all</span>
+            </div>
 
             <div className="filterbox">
               <p className="prodcutlist">Product type</p>
@@ -92,7 +99,7 @@ const Shop = () => {
               </span>
               <div className="sbtndiv">
                 <button className="shopbtn">Buy</button>
-                <button className="shopbtn">Add to cart</button>
+                <button className="shopbtn1">Add to cart</button>
               </div>
             </div>
             <div className="shopsitem">
@@ -110,7 +117,7 @@ const Shop = () => {
               </span>
               <div className="sbtndiv">
                 <button className="shopbtn">Buy</button>
-                <button className="shopbtn">Add to cart</button>
+                <button className="shopbtn1">Add to cart</button>
               </div>
             </div>
             <div className="shopsitem">
@@ -128,7 +135,7 @@ const Shop = () => {
               </span>
               <div className="sbtndiv">
                 <button className="shopbtn">Buy</button>
-                <button className="shopbtn">Add to cart</button>
+                <button className="shopbtn1">Add to cart</button>
               </div>
             </div>
             <div className="shopsitem">
@@ -146,7 +153,7 @@ const Shop = () => {
               </span>
               <div className="sbtndiv">
                 <button className="shopbtn">Buy</button>
-                <button className="shopbtn">Add to cart</button>
+                <button className="shopbtn1">Add to cart</button>
               </div>
             </div>
             <div className="shopsitem">
@@ -164,7 +171,7 @@ const Shop = () => {
               </span>
               <div className="sbtndiv">
                 <button className="shopbtn">Buy</button>
-                <button className="shopbtn">Add to cart</button>
+                <button className="shopbtn1">Add to cart</button>
               </div>
             </div>
             <div className="shopsitem">
@@ -182,64 +189,93 @@ const Shop = () => {
               </span>
               <div className="sbtndiv">
                 <button className="shopbtn">Buy</button>
-                <button className="shopbtn">Add to cart</button>
+                <button className="shopbtn1">Add to cart</button>
               </div>
             </div>
 
-          {/* dumble2 */}
-          
-          <div className="shopsitem">
-            <img className="sitempic1" src={dmble} />
-            <span className="siteminfo">
-              <br />
-              <h3 className="sitemhead">DUMBBELLS</h3>
-              <br />
-              <span className="DP">
-                <p className="siprice">From ₹499</p>
-                <a href="#" className="cartadd">
-                  ↗
-                </a>
+            {/* dumble2 */}
+
+            <div className="shopsitem">
+              <img className="sitempic1" src={dmble} />
+              <span className="siteminfo">
+                <br />
+                <h3 className="sitemhead">DUMBBELLS</h3>
+                <br />
+                <span className="DP">
+                  <p className="siprice">From ₹499</p>
+                  <a href="#" className="cartadd">
+                    ↗
+                  </a>
+                </span>
               </span>
-            </span>
-            <div className="sbtndiv">
-              <button className="shopbtn">Buy</button>
-              <button className="shopbtn">Add to cart</button>
+              <div className="sbtndiv">
+                <button className="shopbtn">Buy</button>
+                <button className="shopbtn1">Add to cart</button>
+              </div>
+            </div>
+            <div className="shopsitem">
+              <img className="sitempic1" src={push} />
+              <span className="siteminfo">
+                <br />
+                <h3 className="sitemhead">PUSH-UPS BAR</h3>
+                <br />
+                <span className="DP">
+                  <p className="siprice">From ₹699</p>
+                  <a href="#" className="cartadd">
+                    ↗
+                  </a>
+                </span>
+              </span>
+              <div className="sbtndiv">
+                <button className="shopbtn">Buy</button>
+                <button className="shopbtn1">Add to cart</button>
+              </div>
+            </div>
+            <div className="shopsitem">
+              <img className="sitempic1" src={pull} />
+              <span className="siteminfo">
+                <br />
+                <h3 className="sitemhead">PULL-UPS BAR</h3>
+                <br />
+                <span className="DP">
+                  <p className="siprice">From ₹799</p>
+                  <a href="#" className="cartadd">
+                    ↗
+                  </a>
+                </span>
+              </span>
+              <div className="sbtndiv">
+                <button className="shopbtn">Buy</button>
+                <button className="shopbtn1">Add to cart</button>
+              </div>
             </div>
           </div>
-          <div className="shopsitem">
-            <img className="sitempic1" src={push} />
-            <span className="siteminfo">
-              <br />
-              <h3 className="sitemhead">PUSH-UPS BAR</h3>
-              <br />
-              <span className="DP">
-                <p className="siprice">From ₹699</p>
-                <a href="#" className="cartadd">
-                  ↗
-                </a>
-              </span>
-            </span>
-            <div className="sbtndiv">
-              <button className="shopbtn">Buy</button>
-              <button className="shopbtn">Add to cart</button>
+        </div>
+      </div>
+      <div className="shopenddiv">
+        <div className="endimg">
+          <img className="imgend" src={dmble} alt="" />
+        </div>
+        <div className="endimginfo"> 
+          <p className="divlift">KNOW BEFORE YOU LIFT</p>
+          <h1 className="endlifthead">THE DETAILS MATTER.</h1>
+          <p className="endliftpara">
+            Hex dumbbells · 10 kg pair · <span>DEOL</span> Essentials
+          </p>
+          <div className="endmatirial">
+            <div className="matirial">
+              <p>Material</p>
+              <p>Individual / total weight</p>
+              <p>Manufacturer age guidance</p>
+              <p>Maximum rated load</p>
+              <p>Return period</p>
             </div>
-          </div>
-          <div className="shopsitem">
-            <img className="sitempic1" src={pull} />
-            <span className="siteminfo">
-              <br />
-              <h3 className="sitemhead">PULL-UPS BAR</h3>
-              <br />
-              <span className="DP">
-                <p className="siprice">From ₹799</p>
-                <a href="#" className="cartadd">
-                  ↗
-                </a>
-              </span>
-            </span>
-            <div className="sbtndiv">
-              <button className="shopbtn">Buy</button>
-              <button className="shopbtn">Add to cart</button>
+            <div className="matinfo">
+              <p>Rubber heads, knurled steel handles</p>
+              <p>10 kg per dumbbell / 20 kg pair</p>
+              <p>See manufacturer guidance</p>
+              <p>See manufacturer guidance</p>
+              <p>Pending owner confirmation before launch</p>
             </div>
           </div>
         </div>

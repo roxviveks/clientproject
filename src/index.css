@@ -3,6 +3,7 @@
   padding: 0;
   z-index: 9;
   background-color: rgb(24, 29, 58);
+  scroll-behavior: smooth;
 }
   /* The bodys code */
 
@@ -22,7 +23,7 @@
 }
 .homebody{
   text-shadow: 0 2px 20px black;
-  padding-top: 150px;
+  padding-top: 20px;
   padding-bottom: 100px;
   
 }
@@ -70,11 +71,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     z-index: 10;
   }
-  /* .head1:hover{
-    background-color: transparent;
-    transform: translateY(-10px) translateX(150px) scale(1.2) ;
-    color: magenta;
-    } */
+  
     .dmbp{
       background-color: transparent;
       transition: 0.5s ease-in-out;
@@ -106,16 +103,17 @@
   background:linear-gradient(45deg,magenta,purple);
 }
 .buy:hover{
-  transform: scale(1.1);
+  transform: scale(1.2);
   background: linear-gradient(47deg,skyblue,blue);
 }
 .info:hover{
-  transform: scale(1.1);
+  transform: scale(1.2);
   background: linear-gradient(47deg,blue,skyblue);
 }
 .homeshop{
   padding-right: 70px;
   padding-left: 80px;
+  padding-top: 30px;
 }
 .homeitemp{
   padding-bottom: 10px;
@@ -125,7 +123,7 @@
   justify-content: space-evenly;
   display: flex;
   gap: 5px;
-
+  margin-top: 50px;
   padding-bottom: 100px;
   flex-wrap: wrap;
 }
@@ -197,7 +195,7 @@
 .homesec{
   padding-right: 70px;
   padding-left: 70px;
-  padding-top: 100px;
+  padding-top: 130px;
   gap: 30px;
   padding-bottom: 100px;
   justify-content: center;
@@ -210,9 +208,21 @@
 .picsecinfo p{
   border-bottom: 1px aqua solid;
   color: aqua;
-  padding-bottom: 40px;
-  padding-top: 10px;
 }
+.moregear{
+  padding-bottom: 10px;
+}
+.gearpara{
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+.secp{
+  padding-top: 30px;
+  padding-bottom: 10px;
+  color: white;
+  font-size: 15px;
+}
+
 .picsechead1{
   color: rgb(2, 183, 254);
   font-size: 40px;
@@ -225,15 +235,11 @@
   display: flex;
   gap: 20px;
   padding-bottom: 10px;
-  padding-top: 30px;
-}
-.secp{
-  padding-bottom: 20px;
-  color: white;
-  font-size: 15px;
+  padding-top: 40px;
 }
 .homebookdiv{
   display: flex;
+  padding-top: 20px;
 }
 .booknowhome{
   text-align: center;
@@ -269,7 +275,7 @@
 }
 .line03{
   border-bottom:2px rgb(110, 109, 109) solid ;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 .hcoachinfo{
   background-color: transparent;
@@ -373,9 +379,12 @@
   justify-content: space-between;
 }
 .recapdiv{
+  transition: 1.5s ease-in-out;
   background-color: black;
   padding:20px;
+  text-decoration: none;
   width: 500px;
+  color: white;
 }
 .countno{
   background-color: black;
@@ -383,10 +392,22 @@
   font-size: 22px;
   padding-left: 10px;
   margin-right: 100px;
-  border-bottom: 1px gray solid;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.counthead{
+  color: rgb(4, 179, 248);
+  padding-bottom: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 20px;
+  border-top: 1px gray solid;
+  background-color: black;
+}
+.countpara{
+  font-size: 13px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: black;
 
+}
 
 
 

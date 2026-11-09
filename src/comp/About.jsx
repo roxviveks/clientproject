@@ -19,7 +19,7 @@ const About = () => {
           </span>
           <div className="aboutbaseline">
             <p className="baselinep">
-              DEOL FITNESS sells quality fitness equipment and pairs it with
+             <span>DEOL FITNESS </span>sells quality fitness equipment and pairs it with
               expert online coaching, so customers can buy the right gear and
               learn how to use it in one place.
             </p>

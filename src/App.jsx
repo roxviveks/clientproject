@@ -1,12 +1,14 @@
 import React from 'react'
+import "./about.css"
 import "./bundle.css"
 import './coaching.css'
-import "./about.css"
-import './shop.css'
-import './nav.css'
-import './terms.css'
-import './login.css'
 import './footer.css'
+import './index.css'
+import './login.css'
+import './nav.css'
+import './shop.css'
+import './terms.css'
+
 import Nav from './docs/Nav'
 import Bodys from './comp/Bodys'
 import {  Route, Routes } from 'react-router-dom'
