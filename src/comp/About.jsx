@@ -6,6 +6,7 @@ import retun from "../pics/return.png"
 import safety from "../pics/product.png"
 import book from "../pics/booking.png"
 const About = () => {
+   window.scrollTo({top:0, behavior:'smooth'})
   return (
     <>
       <div className="aboutmain">

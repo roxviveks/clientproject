@@ -15,6 +15,7 @@ import sech from "../pics/homesecpic.png";
 import gym from "../pics/gymcoach.jpg";
 
 const Bodys = () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
   return (
     <div className="homebody">
       <div className="bgrid">
@@ -39,10 +40,10 @@ const Bodys = () => {
           </div>
         </div>
         <div className="imge1"></div>
-      <span id="first"></span>
+        <span id="first"></span>
       </div>
       <div className="homeshop">
-        <p  className="homeitemp">01 / EQUIP YOUR AMBITION</p>
+        <p className="homeitemp">01 / EQUIP YOUR AMBITION</p>
         <h1 className="homeitemsheading">YOUR SPACE. YOUR SETUP.</h1>
         <span className="deolf1">
           DEOL FITNESS
@@ -248,7 +249,7 @@ const Bodys = () => {
         </div>
       </div>
       <span id="three"></span>
-      <div className="line03" ></div>
+      <div className="line03"></div>
       <div className="homecoach">
         <div className="hcoachinfo">
           <p className="hcpara">03 / TRAIN WITH DIRECTION</p>

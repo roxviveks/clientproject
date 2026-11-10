@@ -9,6 +9,7 @@ import roll from "../pics/roller.jpg";
 import band from "../pics/band.jpg";
 import boll from "../pics/balls.jpg";
 const Shop = () => {
+   window.scrollTo({top:0, behavior:'smooth'})
   return (
     <div className="SHOP">
       <div className="shoptop">

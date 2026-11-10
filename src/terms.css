@@ -63,10 +63,17 @@
 .termsaside{
   width: 500px;
 }
+.asidesticky{
+  padding-top: 40px;
+  padding-bottom: 20px;
+  position: sticky;
+  top: 0;
+
+}
 .asideol{
   border-bottom: 1px gray solid;
   /* margin-left:  20px; */
-  padding-bottom: 30px; 
+  padding-bottom: 10px; 
   
 }
 .asideli{
@@ -76,7 +83,7 @@
   font-size: 14px;
   gap: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 .asidep{
   margin-left: 10px;

@@ -3,6 +3,7 @@ import coachs from "../pics/coach.jpg";
 import girl from "../pics/coachgirl.png";
 import man from "../pics/coachman.png";
 const Coach = () => {
+   window.scrollTo({top:0, behavior:'smooth'})
   return (
     <>
       <div className="coachhead">

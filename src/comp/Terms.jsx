@@ -1,6 +1,7 @@
 import React from "react";
 
 const Terms = () => {
+   window.scrollTo({top:0, behavior:'smooth'})
   return (
     <div className="termsmains">
       <div className="divterms">
@@ -26,55 +27,57 @@ const Terms = () => {
       </div>
       <div className="termsbody">
         <div className="termsaside">
-          <p className="asidep">ON THIS PAGE</p>
-          <ol className="asideol">
-            <a href="#payment" className="asideli">
-              <li className="asideli"> Payments and orders</li>
-            </a>
-            <a href="#ship" className="asideli">
-              <li className="asideli">Shipping</li>
-            </a>
-            <a href="#cancel" className="asideli">
-              <li className="asideli">Cancellation, returns and refunds</li>
-            </a>
-            <a href="#coach" className="asideli">
-              <li className="asideli">Coaching bookings</li>
-            </a>
-            <a className="asideli" href="#subscribe">
-              <li className="asideli">Subscriptions and membership</li>
-            </a>
-            <a href="#acount" className="asideli">
-              <li className="asideli">Accounts and privacy</li>
-            </a>
-            <a href="#customer" className="asideli">
-              <li className="asideli">Customer responsibilities</li>
-            </a>
-            <a  className="asideli" href="#fitnes">
-              <li className="asideli">Fitness safety disclaimer</li>
-            </a>
-            <a className="asideli"href="#equipment">
-              <li className="asideli">Equipment warnings</li>
-            </a>
-            <a href="#change" className="asideli">
-              <li className="asideli">Liability and changes</li>
-            </a>
-          </ol>
-          <div className="asidediv">
-            <div className="bol">BEFORE LAUNCH</div>
-            <br />
-            <p className="ulp">Owner to confirm:</p>
-            <ul className="asideul" type="disc">
-              <li className="asideuli">Return periods</li>
-              <li className="asideuli">Rescheduling notice periods</li>
-              <li className="asideuli">Owner contact details</li>
-            </ul>
-            <p className="ulp">
-              No return or notice period has been assumed in this preview.
-            </p>
+          <div className="asidesticky">
+            <p className="asidep">ON THIS PAGE</p>
+            <ol className="asideol">
+              <a href="#payment" className="asideli">
+                <li className="asideli"> Payments and orders</li>
+              </a>
+              <a href="#ship" className="asideli">
+                <li className="asideli">Shipping</li>
+              </a>
+              <a href="#cancel" className="asideli">
+                <li className="asideli">Cancellation, returns and refunds</li>
+              </a>
+              <a href="#coach" className="asideli">
+                <li className="asideli">Coaching bookings</li>
+              </a>
+              <a className="asideli" href="#subscribe">
+                <li className="asideli">Subscriptions and membership</li>
+              </a>
+              <a href="#acount" className="asideli">
+                <li className="asideli">Accounts and privacy</li>
+              </a>
+              <a href="#customer" className="asideli">
+                <li className="asideli">Customer responsibilities</li>
+              </a>
+              <a className="asideli" href="#fitnes">
+                <li className="asideli">Fitness safety disclaimer</li>
+              </a>
+              <a className="asideli" href="#equipment">
+                <li className="asideli">Equipment warnings</li>
+              </a>
+              <a href="#change" className="asideli">
+                <li className="asideli">Liability and changes</li>
+              </a>
+            </ol>
+            <div className="asidediv">
+              <div className="bol">BEFORE LAUNCH</div>
+              <br />
+              <p className="ulp">Owner to confirm:</p>
+              <ul className="asideul" type="disc">
+                <li className="asideuli">Return periods</li>
+                <li className="asideuli">Rescheduling notice periods</li>
+                <li className="asideuli">Owner contact details</li>
+              </ul>
+              <p className="ulp">
+                No return or notice period has been assumed in this preview.
+              </p>
+            </div>
           </div>
         </div>
         <div className="termscontent">
-          <div className="contenth2">PAYMENTS AND ORDERS</div>
+          <div className="contenth2">1. PAYMENTS AND ORDERS</div>
           <p className="contentp">
             Prices are shown in INR and may change before an order is confirmed.
             An order is accepted after successful payment and confirmation.
@@ -83,7 +86,7 @@ const Terms = () => {
             <span id="ship"></span>
           </p>
           <br />
-          <div className="contenth2">SHIPPING</div>
+          <div className="contenth2">2. SHIPPING</div>
           <p className="contentp">
             Delivery times and charges are shown at checkout. Customers must
             give a correct address. Risk passes to the customer on delivery.
@@ -91,7 +94,7 @@ const Terms = () => {
             <span id="cancel"></span>
           </p>
           <br />
-          <div className="contenth2">CANCELLATION, RETURNS AND REFUNDS</div>
+          <div className="contenth2">3. CANCELLATION, RETURNS AND REFUNDS</div>
           <p className="contentp">
             Orders can be cancelled before dispatch. Unused items in original
             packaging may be returned within the return period shown on the
@@ -101,7 +104,7 @@ const Terms = () => {
             <span id="coach"></span>
           </p>
           <br />
-          <div className="contenth2">COACHING BOOKINGS</div>
+          <div className="contenth2">4. COACHING BOOKINGS</div>
           <p className="contentp">
             Consultations and coaching packages must be booked and paid for in
             advance. Sessions can be rescheduled within the notice period stated
@@ -110,15 +113,15 @@ const Terms = () => {
             <span id="subscribe"></span>
           </p>
           <br />
-          <div className="contenth2">SUBSCRIPTIONS AND MEMBERSHIP</div>
+          <div className="contenth2">5. SUBSCRIPTIONS AND MEMBERSHIP</div>
           <p className="contentp">
             If membership plans are offered, they renew at the stated interval
             until cancelled. Cancellation takes effect at the end of the paid
             period. Prices and renewal terms are shown before purchase.
-            <span className="acount"></span>
+            <span id="acount"></span>
           </p>
           <br />
-          <div className="contenth2">ACCOUNTS AND PRIVACY</div>
+          <div className="contenth2">6. ACCOUNTS AND PRIVACY</div>
           <p className="contentp">
             Customers must give true details and keep passwords private.
             Personal data is used only for orders, coaching, support and legal
@@ -127,7 +130,7 @@ const Terms = () => {
             <span id="customer"></span>
           </p>
           <br />
-          <div className="contenth2">CUSTOMER RESPONSIBILITIES</div>
+          <div className="contenth2">7. CUSTOMER RESPONSIBILITIES</div>
           <p className="contentp">
             Use equipment as intended, within the manufacturer age guidance and
             maximum rated load. Check equipment before each use. Do not misuse
@@ -135,7 +138,7 @@ const Terms = () => {
             <span id="fitnes"></span>
           </p>
           <br />
-          <div className="contenth2">FITNESS SAFETY DISCLAIMER</div>
+          <div className="contenth2">8. FITNESS SAFETY DISCLAIMER</div>
           <p className="contentp">
             Exercise carries risk. Check with a doctor before starting any
             program, especially with a health condition, injury or pregnancy.
@@ -144,7 +147,7 @@ const Terms = () => {
             <span id="equipment"></span>
           </p>
           <br />
-          <div className="contenth2">EQUIPMENT WARNINGS</div>
+          <div className="contenth2">9. EQUIPMENT WARNINGS</div>
           <p className="contentp">
             Never exceed the maximum rated load. Secure collars and plates
             correctly. Keep equipment away from children unless the product age
@@ -153,7 +156,7 @@ const Terms = () => {
             <span id="change"></span>
           </p>
           <br />
-          <div className="contenth2">LIABILITY AND CHANGES</div>
+          <div className="contenth2">10. LIABILITY AND CHANGES</div>
           <p className="contentp">
             To the extent allowed by law, DEOL FITNESS is not liable for injury
             or loss from misuse, ignoring warnings or ignoring professional

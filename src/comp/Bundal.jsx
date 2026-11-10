@@ -5,6 +5,7 @@ import kit3 from "../pics/kit1.png";
 import kit2 from "../pics/KIT3.png";
 
 const Bundal = () => {
+   window.scrollTo({top:0, behavior:'smooth'})
   return (
     <div className="bmainbody">
       <div className="bundalmain">

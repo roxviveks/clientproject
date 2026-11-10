@@ -1,16 +1,14 @@
 .logindiv{
   /* padding-top: 150px; */
-  padding-left: 80px;
-  padding-right: 80px;
-  padding-bottom: 150px;
+  padding-bottom: 100px;
 }
-.loginh{
+.loginh{background-color: rgb(1, 10, 30);
+  margin-bottom: 50px;
   color: white;
   font-size: 50px;
   padding-bottom: 20px;
   color:magenta;
   text-align: center;
-  margin:auto;
 }
 .loginform{
   width: 400px;
@@ -20,7 +18,7 @@
   padding-top: 100px;
   padding-left: 80px;
   padding-right: 80px;
-  padding-bottom: 150px;
+  padding-bottom: 100px;
 }
 .loginform input{
   color: white;
@@ -55,12 +53,46 @@ input:focus::placeholder{
   width: 200px;
   height: 40px;
   border-radius: 20px;
-  padding-left: 30px;
+  padding-left: 20px;
   padding-right: 20px;
   font-size: 20px;
   margin-top: 30px;
   margin-bottom: 30px;
-  margin-left: 70px;
+  margin-left: 100px;
   background-color: magenta;
+  color: white;
+}
+.loginflex{
+  padding-bottom: 50px  ;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-top: 50px;
+  background-color: black;
+  padding-top: 50px;
+  display: flex;
+  justify-content:space-between;
+  gap: 30px;
+  color: white;
+}
+.divlogin{
+  width: 300px;
+  padding: 10px 20px;
+  border: 2px aqua solid;
+}
+.loginheaddiv{
+  color:aqua;
+  padding: 10px 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.divlogin p{
+  font-size: 14px;
+  padding-bottom: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.explorelist{
+  padding: 0px 20px;
+}
+.loginlink{
+  text-decoration: none;
   color: white;
 }
