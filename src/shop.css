@@ -123,7 +123,12 @@
   background-position: center;
   background-repeat: no-repeat;
   width: 220px;
+  transition: 0.3s ease-in-out;
   height: 210px;
+}
+.sitempic1:hover{
+  transform: scale(1.1);
+  border-radius: 20px;
 }
 .sitem {
   display: flex;
@@ -135,6 +140,10 @@
   background-color: #183058;
   padding: 15px;
   border-radius: 20px;
+  transition: 0.2s ease-in-out;
+}
+.shopsitem:hover{
+  transform: translateY(-40px);
 }
 .sitemhead {
   background-color: #183058;
