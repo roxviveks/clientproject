@@ -267,11 +267,11 @@
   font-weight: bolder;
 }
 .homecoach{
-  padding-left: 60px;
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: black;
   display: flex;
+  justify-content: center;
   gap: 30px;
 }
 .line03{
@@ -408,6 +408,9 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: black;
 
+}
+@media (width:1440px) {
+  
 }
 
 
