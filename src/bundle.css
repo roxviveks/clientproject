@@ -159,8 +159,8 @@
     width: fit-content;
 }
 .bndl2{
-    width: 350px;
-    height: 200px;
+    width: 320px;
+    height: 230px;
 }
 .bdprice{
     background-color: black;
@@ -192,7 +192,7 @@
 .itemhead{
     background-color: black;
     color: aqua;
-    font-size: 27px;
+    font-size: 25px;
 }
 .review{
     color: magenta;
@@ -200,15 +200,16 @@
 }
 .bndlbtns{
     background-color: black;
+    display: flex;
+    gap: 10px;
 }
 .addtcart{ 
     font-weight: bolder;
-    margin-right: 20px;
     border-radius: 10px;
     background-color: aqua;
     padding-right: 10px;
     padding-left: 10px;
-    font-size: 20px;
+    font-size: 16px;
     height: 50px;
     
 }
@@ -217,7 +218,7 @@
     background-color: magenta;
     font-weight: bolder;
     color: rgb(0, 0, 0);
-    font-size: 20px;
+    font-size: 16px;
     border-radius: 10px;
     height: 50px;
     padding-right: 20px;

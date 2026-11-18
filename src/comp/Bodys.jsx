@@ -30,7 +30,7 @@ const Bodys = () => {
             <span className="deolf">
               DEOL FITNESS <br />
             </span>
-            Gives you dumbbells, barbells, plates and bands, plus online coaches
+            Gives you dumbbells, barbells, plates and bands, plus online coaches <br />
             who build your plan and track your progress.{" "}
             <span className="gear">All in one place.</span>
           </p>
