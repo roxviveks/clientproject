@@ -87,7 +87,7 @@ const Bundal = () => {
             <span className="item1sp">
               <p className="review">★ 4.5 (16)</p>
               <br />
-              <h1 className="itemhead">INTERMIDIATE GYM KIT</h1>
+              <h1 className="itemhead">INTERMEDIATE GYM KIT</h1>
               <br />
               <p className="infolines">
                 Barbell Rod 7ft, Weight Plates (20kg,10kg,5kg,2.5kg) <br />{" "}
